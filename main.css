@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Vesper+Libre:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,700');
+
+::-moz-selection {
+  color: #D1D6E7;
+  background-color: #454545;
+}
+
+::selection {
+  color: #D1D6E7;
+  background-color: #454545;
+}
+
+.logo {
+  width: 400px;
+  max-width: 100%;
+  margin-left: -20px;
+  height: 100px;
+}
+
+body {
+  color: #454545;
+  background: #D1D6E7;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+h1,
+h2,
+h3,
+h4,
+.nav-item {
+  font-family: "Vesper Libre", serif;
+}
+
+.subheader {
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+
+.post-meta {
+  margin-top: -15px;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+a {
+  font-weight: 700;
+  color: #454545;
+  -webkit-transition: color;
+  transition: color;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #E63E62;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+nav a.nav-item {
+  border-bottom: 2px solid #454545;
+}
+
+nav a.nav-item:hover,
+a.nav-item:focus,
+a.nav-item:active {
+  border-bottom-color: #E63E62;
+}
+
+footer.bottom-footer {
+  margin-top: 25px;
+}
+
+footer.bottom-footer span.nav-item {
+  border-top: 2px solid #454545;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  line-height: 150%;
+}
+
+p a {
+  font-weight: 700;
+  color: #B33F62;
+  -webkit-transform-style: color;
+  transform-style: color;
+  border-bottom: none;
+}
+
+p img {
+  max-width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+p em.caption {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+p a:hover,
+p a:focus,
+p a:active {
+  color: #E63E62;
+  text-decoration: none;
+}
+
+.brace-effect a::before,
+.brace-effect a::after {
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.4s;
+  transition: transform 0.2s, opacity 0.4s;
+}
+
+.brace-effect a::before {
+  margin-right: 0px;
+  content: '{';
+  color: #E63E62;
+  -webkit-transform: translateX(2px);
+  transform: translateX(2px);
+}
+
+.brace-effect a::after {
+  margin-left: 0px;
+  content: '}';
+  color: #E63E62;
+  -webkit-transform: translateX(-2px);
+  transform: translateX(-2px);
+}
+
+.brace-effect a:hover::before,
+.brace-effect a:hover::after,
+.brace-effect a:focus::before,
+.brace-effect a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.brace-effect a.nav-item.icon.github::before {
+  color: #000000;
+}
+
+.brace-effect a.nav-item.icon.github::after {
+  color: #000000;
+}
+
+a.nav-item.icon.github:hover,
+a.nav-item.icon.github:focus,
+a.nav-item.icon.github:active {
+  color: #000000;
+  border-bottom-color: #000000;
+}
+
+.brace-effect a.nav-item.icon.twitter::before {
+  color: #1DA1F2;
+}
+
+.brace-effect a.nav-item.icon.twitter::after {
+  color: #1DA1F2;
+}
+
+a.nav-item.icon.twitter:hover,
+a.nav-item.icon.twitter:focus,
+a.nav-item.icon.twitter:active {
+  color: #1DA1F2;
+  border-bottom-color: #1DA1F2;
+}
+
+p.desc {
+  margin-top: 0;
+}
+
+nav.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+nav .nav-item {
+  margin: 0.4em;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer.p {
+  margin: 0.4em;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+}
