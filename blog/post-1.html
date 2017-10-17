@@ -3,30 +3,39 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#D1D6E7">
+<meta name="theme-color" content="#EEECE3">
 <title>Hello World</title>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 <link rel="stylesheet" href="/main.css" type="text/css" media="all"/>
 
   </head>
   <body data-route=>
-    <nav class="nav-menu brace-effect">
-  <a class="nav-item " href="/about">Me</a>
-  <a class="nav-item " href="/">Rambles</a>
-  <a class="nav-item " href="/projects/">Projects  <i class="fa fa-code-fork"></i></a>
+    <div class="row">
+      <div class="column sidebar">
+        <h1 class="sidebar-name">Fraser Savage</h1>
+<p class="sidebar-blurb">
+Computer Science Undergraduate, University College London.
+Working on things at <a class="storageos" href="https://storageos.com">StorageOS</a>.
+</p>
+<nav class="nav-menu brace-effect">
+  <a class="nav-item" href="/">Blog</a>
   <a class="nav-item icon github" href="https://github.com/savage-engineer"><i class="fa fa-github-alt"></i></a>
   <a class="nav-item icon twitter" href="https://twitter.com/engineer_savage"><i class="fa fa-twitter"></i></a>
+  <a class="nav-item icon linkedin" href="https://linkedin.com/frasersavage"><i class="fa fa-linkedin"></i></a>
 </nav>
 
-    <main>
-    <h1>Hello World</h1>
-    <time pubdate="pubdate">31st October 2016</time>
-    <p>After having not touched my personal website for a long time, I decided to move to a new domain - this one. One of the main reasons for doing that was because these fancy new TLDs are pretty cool and I thought I would have a bit of fun with them.</p>
+
+      </div>
+      <main class="column content">
+      <h1>Hello World</h1>
+      <time pubdate="pubdate"></time>
+      <p>After having not touched my personal website for a long time, I decided to move to a new domain - this one. One of the main reasons for doing that was because these fancy new TLDs are pretty cool and I thought I would have a bit of fun with them.</p>
 <p>As of writing this site is quite bare, but I hope to change that over time. I have a range of different projects I'm working on either for my personal enjoyment and learning or as part of my degree content. I'll try to keep the ones I think are quite interesting here and avoid clogging up my nice new minimal site with generic course projects.</p>
 <p>From time to time I'm hoping that I'll find the inspiration to have a little ramble about something that interests, amuses or possibly even irritates me. I don't suspect that I'll write non-technology-focussed posts very often and will usually try to stick to writing about something that I'm working on or some piece of tech I haven't worked with much before.</p>
 <p>Projects I'm currently working on include a HoloLens application for pre-op inspection of patient internals (through organ models or DICOM images) and various little game concepts I'm exploring in my free time. Hopefully I'll be able to show some of the cool stuff on this site so look out for it :)</p>
 
-    </main>
+      </main>
+    </div>
     <footer class="bottom-footer brace-effect">
   <span class="nav-item">A work in progress<a class="nav-item" href="https://github.com/cobalt-org/cobalt.rs">built with Cobalt</a></span>
   <br>
