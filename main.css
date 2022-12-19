@@ -178,7 +178,18 @@ p a.storageos {
 p a.storageos:hover,
 p a.storageos:focus,
 p a.storageos:active {
-  color: #61C202;
+  color: #017EFA;
+  text-decoration: none;
+}
+
+p a.improbable {
+  color: #B33F62;
+}
+
+p a.improbable:hover,
+p a.improbable:focus,
+p a.improbable:active {
+  color: #000000;
   text-decoration: none;
 }
 
