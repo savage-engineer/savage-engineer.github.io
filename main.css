@@ -182,6 +182,17 @@ p a.storageos:active {
   text-decoration: none;
 }
 
+p a.influxdata {
+  color: #B33F62;
+}
+
+p a.influxdata:hover,
+p a.influxdata:focus,
+p a.influxdata:active {
+  color: #020A47;
+  text-decoration: none;
+}
+
 p a.improbable {
   color: #B33F62;
 }
